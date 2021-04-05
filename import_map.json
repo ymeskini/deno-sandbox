@@ -1,6 +1,5 @@
 {
   "imports": {
-    "@testing/": "https://deno.land/std@0.92.0/testing/",
-    "@oak/": "https://deno.land/x/oak/"
+    "@testing/": "https://deno.land/std@0.92.0/testing/"
   }
 }
