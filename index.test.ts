@@ -1,7 +1,6 @@
-import { assertEquals } from "testing/asserts.ts";
-import { test } from "./deps.ts";
+import { assertEquals } from "https://deno.land/std@0.92.0/testing/asserts.ts";
 
-test("hello world", () => {
+Deno.test("hello world", () => {
   const x = 1 + 2;
   assertEquals(x, 3);
 });
