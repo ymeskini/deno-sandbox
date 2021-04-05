@@ -1,6 +1,10 @@
-import { Application } from "https://deno.land/x/oak/mod.ts";
+import { Application, Router } from "@oak";
 
-import { v1Router } from "./infra/http/api/v1/index.ts";
+const v1Router = new Router();
+
+v1Router.get("/", (context) => {
+  context.response.body = "We're up and running";
+});
 
 const app = new Application();
 
